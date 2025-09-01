@@ -20,7 +20,7 @@ Additionally a Neighbour Aware Search (NAS) mechanism has been implemented.
 
 ```
 your_project/
-│─ your_experiment.ipynb              # <- your notebook (same repo)
+│─ notebook_source.ipynb              # <- your notebook (same repo)
 │
 ├─ ensemble/                          # <- your ensemble/reference outputs (in repo)
 │   └─ ...                            #     e.g., Wc reference files
@@ -223,6 +223,21 @@ print("Optimal (ku, damp):", ku_opt, damp_opt)
 - Verify `source` and file naming: `Anis_{ku:.3f}e-22Damp_{damp:.3f}/output`.
 - ku and damp in this should be passed as strings to ensure they are 3 decimal places each.
 
+---
+
+## Tested versions
+
+This framework was developed and tested with the following package versions:
+
+- Python == 3.12.7
+- torch == 2.7.1  
+- botorch == 0.14.0  
+- gpytorch == 1.14  
+- scikit-learn == 1.5.1  
+- numpy == 1.26.4  
+- linear-operator == 0.6  
+
+Other versions may work, but reproducibility is only guaranteed with the above.
 ---
 
 ## License
