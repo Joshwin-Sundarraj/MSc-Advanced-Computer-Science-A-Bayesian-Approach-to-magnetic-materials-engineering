@@ -1,6 +1,6 @@
 # MSc-Advanced-Computer-Science-A-Bayesian-Approach-to-magnetic-materials-engineering
 
-# Magnetic Bayesian Optimization (2D: ku, damp)
+# Magnetic Bayesian Optimization
 
 A Bayesian Optimization implementation for magnetic parameter extraction of anisotropy and effective damping `(ku, damp)`.  
 This supports Gaussian Process (GP) and Random Forest (RF) surrogate models with a **Sequential Domain Reduction (SDR)** implemented in PyTorch
